@@ -1,0 +1,512 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    display: flow-root;
+}
+
+@font-face {
+    font-family: inter-var;
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../font/Inter_24pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-Light;
+    src: url(../font/Inter_24pt-Light.ttf);
+}
+
+@font-face {
+    font-family: inter-Medium;
+    ;
+    src: url(../font/Inter_24pt-Medium.ttf);
+}
+
+@font-face {
+    font-family: inter-SemiBold;
+    src: url(../font/Inter_24pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: inter-Bold;
+    src: url(../font/Inter_24pt-Bold.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: inter-Light;
+}
+header{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  border-bottom: solid rgba(234, 235, 240, 1);
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: inter;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+header .down{
+  display: flex;
+}
+header a{ text-decoration: none;
+        color: rgba(39, 45, 55, 1);
+        font-family: inter;
+}
+header .logo{margin-left: 70px;
+           margin-right: 65px;
+           flex-shrink: 0;
+}
+header .Home{margin-right:auto; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .log {margin: 10px;
+}
+.up{color: rgba(67, 126, 247, 1);
+}
+header .log-in{
+  padding: 12px 18px 12px 18px;
+  color: aliceblue;
+  border: rgba(67, 126, 247, 1) solid;
+  background-color: rgba(67, 126, 247, 1);
+  border-radius: 10px;
+  font-family: inter-SemiBold;
+}
+.log{
+     margin-bottom: 10px;
+}
+header a:hover {
+  color: #437EF7;
+  text-decoration: underline;
+}
+
+header .log-in:hover, .signup-btn:hover, .form- .submit:hover, .email-form button:hover {
+  background-color: #3961b7;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.con {
+      margin-top:100px; 
+      margin-bottom:100px;
+      width: 100%;
+      text-align: center;
+}
+.con p{   
+  color: rgba(67, 126, 247, 1);
+  font-size: 14px;
+  font-family: inter-SemiBold;
+}
+.con h1{
+  font-size: 52px;
+  font-size: 52px;
+}
+.form{
+  height: 284px;
+  background-color: rgba(43, 99, 217, 1);
+  display: flex;
+  align-items: center;
+  
+  }
+.welcom{
+  max-width: 550px;
+  margin: 70px;
+}
+.form h1{
+  color:aliceblue;
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-family: inter-Bold;
+}
+.form p{
+  color: rgba(177, 204, 251, 1);
+  font-size: 16px;
+  font-family: inter;
+
+}
+
+.form- .input {
+ width: 440px;
+ height: 46px;
+ margin: 0px;
+ border: none;
+ padding: 0px;
+}
+.form- .submit {
+  width: 120px;
+  height: 46px;
+  background-color: rgba(67, 126, 247, 1);
+  color: aliceblue;
+  border: none;
+  margin:0px ;
+  padding: 0px;
+}
+.form- form {
+ border-radius: 10px;
+ border:aliceblue solid  ;
+   margin: 0px;
+   padding: 0px;
+   margin-bottom: 10px;
+}
+.form- p{
+  color: rgba(177, 204, 251, 1);
+}
+.blogs{
+  display: flex;
+  padding: 64px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  
+}
+.blogs .main {
+  margin: 24px;
+  text-align: center;
+  font-family: inter-SemiBold;
+}
+
+.blogs .main h1{
+  margin: 10px;
+  max-width: 588px;
+  font-size: 23px;
+}
+.blogs .main p{
+  margin: 10px;
+  max-width: 588px;
+  font-size:16px;
+  font-family: inter;
+}
+
+.blogs .main .p{
+  font-size: 12px;
+  font-family: inter;
+}
+.b{
+  display: flex;
+  flex-direction: column;
+}
+.b .f,.s,.t{
+display: flex;
+margin: 24px;
+}
+.blogs .b h1{
+  max-width: 376px;
+  font-size: 22px;
+}
+.blogs .b p{
+  max-width: 376px;
+  font-size: 16px;
+}
+.b .f div h1,.s div h1,.t div h1,.b .f div p,.s div p,.t div p{ margin: 10px;}
+.b .f div .p,.s div .p,.t div .p{
+  font-size: 12px;
+}
+.Latest{
+ padding: 64px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.blog-l,.blog-b{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.blog-l div,.blog-b div{
+  margin: 24px;
+  max-width: 350px;
+}
+
+.h2{
+  text-align: center;
+  font-size: 32px;
+  
+}
+.Latest h2{
+  font-family: inter-Bold;
+  font-size: 22px;}
+.Latest p{
+  font-size: 16px;
+  font-family: inter;}
+.Latest span{
+  font-size: 15px;
+}
+.Latest a{
+  text-decoration: none;
+  color:#437EF7 ;
+}
+.blog-l div:hover, .blog-b div:hover, .blogs .main:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+.links a:hover {
+  color: #fff;
+  text-decoration: underline;
+
+}
+
+
+.blog-l div:hover, .blog-b div:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+
+.blog-l div p:hover, .blog-b div p:hover {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.Latest a:hover span {
+  color: #437EF7;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+
+
+
+
+.container {
+  text-align: center;
+}
+
+.header {
+  background-color: #2B63D9;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+
+.header p {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  font-size:14px ;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 32px;
+}
+
+.signup-btn {
+  background-color: #fff;
+  color: #3366cc;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.main1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 60px;
+  background-color: #151B28;
+  color: #fff;
+  
+}
+.logo1 p{
+  color: #A5ACBA;
+}
+.logo1 {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+
+.email-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.email-form input {
+  padding: 10px;
+  font-size: 14px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.email-form button {
+  background-color: #437EF7;
+  color: #fff;
+  border: none;
+  padding: 10px ;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2;
+}
+
+.links div {
+  text-align: left;
+  margin: 20px;
+}
+
+.links h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li  {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.links a{
+  text-decoration: none;
+  color: #A5ACBA;
+  font-family: inter-Medium;
+}
+hr{
+  background-color: #151B28;
+  margin: 100px #3961b7;
+}
+.footer {
+  padding: 20px;
+  font-size: 12px;
+  background-color: #151B28;
+  color:#A5ACBA ;
+  font-family: inter;
+}
+
+body, html {
+  overflow-x: hidden; 
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  header {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      margin: 0 auto;
+      width: 100%;
+  }
+
+  header .logo {
+      margin: 0;
+  }
+
+  .blogs {
+      flex-direction: column;
+      padding: 10px;
+      width: 100%; 
+  }
+
+  .blog-l div, .blog-b div {
+      max-width: 90%;
+      margin: 10px auto; 
+  }
+
+  .form {
+      flex-direction: column;
+      padding: 20px;
+      width: 90%; 
+      margin: 0 auto;
+  }
+
+  .form h1 {
+      font-size: 24px;
+  }
+
+  .form p {
+      font-size: 14px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+      font-size: 15px;
+  }
+
+  header {
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 20px;
+      margin: 0 auto;
+      width: 100%;
+  }
+
+  .blogs {
+      padding: 20px;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%; 
+  }
+
+  .blog-l div, .blog-b div {
+      max-width: 45%;
+      margin: 15px auto;
+  }
+
+  .form {
+      padding: 30px;
+      width: 80%;
+      margin: 0 auto; 
+      text-align: center;
+  }
+
+  .form h1 {
+      font-size: 28px;
+  }
+
+  .form p {
+      font-size: 16px;
+  }
+}
