@@ -77,6 +77,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Shehab Hosny Mohamed - shehabhosny889@gmail.com
 
-Project Link: [https://github.com/yourusername/blog-website](https://github.com/yourusername/blog-website) 
+Project Link: [https://github.com/yourusername/blog-website](https://github.com/shehab125/blog-website) 
